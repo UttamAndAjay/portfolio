@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <div class="text">
+          <h1>Hi, I'm <span class="highlight">Uttam Siravi</span></h1>
+          <p>I'm Learning Web Development.</p>
+          <nav>
+            <a href="#about">About</a>
+            <a href="#work">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <div class="image">
+          <img src="/Users/imac/Downloads/dev.png" alt="Developer" />
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up">
+      <div class="container">
+        <h2>About Me</h2>
+        <p style="text-align: center">
+          My name is Uttam Siravi. I'm Learning Web Development. And can only
+          make websites using HTML.
+        </p>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" data-aos="fade-up">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="grid">
+          <a
+            href="https://devuttam.great-site.net/"
+            target="_blank"
+            class="project-link"
+          >
+            <div class="card" data-category="web">
+              <h3>Green Plant Corporation</h3>
+              <p>A website I made with the help of ChatGPT.</p>
+            </div>
+          </a>
+          <div class="card" data-category="design">
+            <h3>Designed Webpage</h3>
+            <p>In development 🔨</p>
+          </div>
+          <div class="card" data-category="web">
+            <h3>Startup Landing Page</h3>
+            <p>In development 🛠️</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up">
+      <div class="container">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xdkzljag" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Uttam Siravi. Built with 🖥</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
