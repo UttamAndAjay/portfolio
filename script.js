@@ -1,7 +1,3 @@
-// Project filter
-default-src 'self';
-script-src 'self' 'unsafe-eval';
-style-src 'self' fonts.googleapis.com;
 const buttons = document.querySelectorAll('.filter-btn');
 const cards = document.querySelectorAll('.card');
 buttons.forEach(btn => {
