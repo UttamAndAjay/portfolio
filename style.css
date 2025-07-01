@@ -27,7 +27,7 @@ body {
 header {
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(https://4kwallpapers.com/images/walls/thumbs_3t/11771.png) center/cover
+    url(wall.png) center/cover
       no-repeat;
   color: white;
   min-height: 100vh;
