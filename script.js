@@ -12,3 +12,12 @@ buttons.forEach(btn => {
 
 // AOS init
 AOS.init({ duration: 800, once: true });
+
+app.on('ready', () => {
+    mainWindow = new BrowserWindow({
+        webPreferences: {
+            nodeIntegration: true,
+            contextIsolation: false,
+        }
+    });
+});
