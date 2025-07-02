@@ -1,7 +1,3 @@
-setTimeout(function () {
-    document.querySelector('a').style.display = 'none';
-}, 10);
-
 const buttons = document.querySelectorAll('.filter-btn');
 const cards = document.querySelectorAll('.card');
 buttons.forEach(btn => {
