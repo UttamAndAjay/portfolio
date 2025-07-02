@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Cherry Bomb One", sans-serif;
+  font-family: "DynaPuff", sans-serif;
   background: var(--bg);
   color: var(--text);
   transition:
@@ -157,14 +157,14 @@ form {
 }
 input,
 textarea {
-  font-family: "Cherry Bomb One", sans-serif;
+  font-family: "DynaPuff", sans-serif;
   padding: 14px;
   border: 1px solid #CCC;
   border-radius: 8px;
   font-size: 1rem;
 }
 button {
-  font-family: "Cherry Bomb One", sans-serif;
+  font-family: "DynaPuff", sans-serif;
   background: var(--button-bg);
   color: white;
   padding: 14px;
