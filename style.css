@@ -27,7 +27,7 @@ body {
 header {
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/Users/imac/Downloads/wall.png) center/cover
+    url(wall.png) center/cover
       no-repeat;
   color: white;
   min-height: 100vh;
