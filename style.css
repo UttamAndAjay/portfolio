@@ -210,8 +210,3 @@ a.project-link {
 a.project-link:visited {
   color: inherit;
 }
-
-img {
-  max-inline-size: 100%;
-  block-size: auto;
-}
