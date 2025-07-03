@@ -55,6 +55,7 @@ header {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+  text-wrap: wrap;
   width: 90%;
   max-width: 1200px;
   margin: auto;
@@ -69,7 +70,6 @@ header .highlight {
 header p {
   font-size: 1.1rem;
   margin-bottom: 30px;
-  text-align: center;
 }
 nav a {
   margin-right: 20px;
