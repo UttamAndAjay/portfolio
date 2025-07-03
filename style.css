@@ -92,6 +92,11 @@ nav a {
   color: var(--accent);
 }
 
+.text {
+  flex-wrap: wrap;
+  text-wrap: wrap;
+}
+
 /* Sections */
 section {
   padding: 80px 0;
