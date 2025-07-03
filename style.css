@@ -27,7 +27,7 @@ body {
 header {
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(wall.png) center/cover
+    url(/Users/imac/Downloads/wall.png) center/cover
       no-repeat;
   color: white;
   min-height: 100vh;
@@ -51,8 +51,9 @@ header {
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   width: 90%;
   max-width: 1200px;
@@ -68,6 +69,7 @@ header .highlight {
 header p {
   font-size: 1.1rem;
   margin-bottom: 30px;
+  text-align: center;
 }
 nav a {
   margin-right: 20px;
