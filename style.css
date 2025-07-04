@@ -256,6 +256,14 @@ footer {
   }
 }
 
+@media (max-width: 315px) {
+  .filter-buttons {
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
